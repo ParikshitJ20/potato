@@ -32,8 +32,8 @@ python
 Copy
 Edit
 # Example of loading the model
-model_path = "your_google_drive_link_to_model_file"
-model = keras.models.load_model(model_path)
+file_id = "your_google_drive_link_to_model_file"
+
 3. Deploy on Streamlit
 After modifying the app.py, you can deploy it on Streamlit by following these steps:
 
